@@ -1,4 +1,4 @@
-package featureA
+package featurea
 import "fmt"
 
 func TampilRestoran() {

@@ -1,4 +1,4 @@
-package featureB
+package featureb
 import "fmt"
 
 func TampilMobil() {

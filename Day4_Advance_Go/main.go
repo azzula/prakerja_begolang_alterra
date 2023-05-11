@@ -1,8 +1,8 @@
 package main
 import (
 	"fmt"
-	"prakerja_day4/featureA"
-	"prakerja_day4/featureB"
+	"prakerja_begolang_alterra/Day4_Advance_Go/featurea"
+	"prakerja_begolang_alterra/Day4_Advance_Go/featureb"
 )
 
 func main() {
@@ -51,8 +51,8 @@ func main() {
 	panic("Error A")
 
 	// package
-	featureA.TampilRestoran()
-	featureB.TampilMobil()
+	featurea.TampilRestoran() // <-- unreachable code
+	featureb.TampilMobil() // <-- unreachable code
 }
 
 // pointer
