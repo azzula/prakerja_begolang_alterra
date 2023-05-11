@@ -1,10 +1,9 @@
 package routes
 
 import (
-	"prakerja_begolang_alterra/Day7_MVC/controllers"
-
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"prakerja_begolang_alterra/Day8_Deploy/controllers"
 )
 
 func InitRoute() *echo.Echo {

@@ -6,7 +6,7 @@ import (
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"prakerja_begolang_alterra/Day7_MVC/models"
+	"prakerja_begolang_alterra/Day8_Deploy/models"
 )
 
 var DB *gorm.DB

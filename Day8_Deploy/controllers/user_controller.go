@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"github.com/labstack/echo/v4"
 	"gorm.io/gorm"
-	"prakerja_begolang_alterra/Day7_MVC/configs"
-	"prakerja_begolang_alterra/Day7_MVC/models"
+	"prakerja_begolang_alterra/Day8_Deploy/configs"
+	"prakerja_begolang_alterra/Day8_Deploy/models"
 )
 
 func GetUserController(c echo.Context) error {
