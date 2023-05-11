@@ -1,4 +1,4 @@
-package main
+package hitung_string
 import "fmt"
 
 func Mapping(slice []string) map[string]int {
@@ -16,7 +16,7 @@ func Mapping(slice []string) map[string]int {
  	return cek
 }
 
-func main() {
+func hitung_string() {
 	fmt.Println(Mapping([]string{"asd", "qwe", "asd", "adi", "qwe", "qwe"}))
 	// map[adi: 1 asd: 2 qwe:3]
 

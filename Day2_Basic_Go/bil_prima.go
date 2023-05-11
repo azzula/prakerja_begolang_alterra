@@ -1,7 +1,7 @@
-package main
+package bil_prima
 import "fmt"
 
-func main () {
+func bil_prima() {
 	for bil := 1; bil <= 10; bil++ {
 		i := 0
 		for bagi := 1; bagi <= 10; bagi++ {

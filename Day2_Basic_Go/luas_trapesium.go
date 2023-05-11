@@ -1,7 +1,7 @@
-package main
+package luas_trapesium
 import "fmt"
 
-func main () {
+func luas_trapesium() {
 	var sisi_atas, sisi_bawah, tinggi, luas float32
 	
 	sisi_atas = 12

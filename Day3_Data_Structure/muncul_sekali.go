@@ -1,4 +1,4 @@
-package main
+package muncul_sekali
 import (
 	"fmt"
 	"strconv"
@@ -24,7 +24,7 @@ func munculSekali(angka string) []int {
     return list
 }
 
-func main() {
+func muncul_sekali() {
 	fmt.Println(munculSekali("1234123"))	// [4]
 	fmt.Println(munculSekali("76523752"))	// [6, 3]
 	fmt.Println(munculSekali("12345"))		// [1 2 3 4 5]

@@ -1,4 +1,4 @@
-package main
+package gabung_array
 import "fmt"
 
 func ArrayMerge(arrayA, arrayB []string) []string {
@@ -15,7 +15,7 @@ func ArrayMerge(arrayA, arrayB []string) []string {
     return list
 }
 
-func main() {
+func gabung_array() {
 	fmt.Println(ArrayMerge([]string{"king", "devil jin", "akuma"}, []string{"eddie", "steve", "geese"}))
 	// ["king", "devil jin", "akuma", "eddie", "steve", "geese"]
 
