@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"net/http"
-	"prakerja_begolang_alterra/Final_Project/config"
-	"prakerja_begolang_alterra/Final_Project/models"
+	"final_project/config"
+	"final_project/models"
 	"strconv"
 
 	"github.com/labstack/echo/v4"

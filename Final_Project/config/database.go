@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"os"
-	"prakerja_begolang_alterra/Final_Project/models"
+	"final_project/models"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"

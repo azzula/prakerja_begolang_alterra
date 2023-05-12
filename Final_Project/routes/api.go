@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"prakerja_begolang_alterra/Final_Project/controllers"
+	"final_project/controllers"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
